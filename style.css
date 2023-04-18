@@ -1,0 +1,64 @@
+#sound{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    cursor: pointer;
+   left: 690px;
+    top: -40px;
+}
+#gameover{
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    top: 0;
+    left: 690px;
+    background-color:black;
+    display: none;
+}
+#youwon{
+    position: relative;
+    top: 70px;
+    left: 0px;
+    display: none;
+}
+#youlose{
+  
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    display: none;
+}
+#restart{
+    cursor: pointer !important;
+    position: absolute;
+    top: 280px;
+    left: 180px;
+    font-size: 1.25em;
+    color:#fff;
+    text-align: center;
+}
+#start{
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: 690px;
+    width:450px;
+    height: 500px;
+    border-radius: 10px;
+}
+#start_p{
+    position: relative;
+    color: wheat;
+    left: 40%;
+    top: 40%;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', sans-serif;
+   
+}
+
+#start_p:hover{
+    color: red;
+    cursor: pointer;
+}

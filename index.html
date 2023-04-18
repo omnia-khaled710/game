@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaks Game</title>
+   <link rel="stylesheet" href="style.css">
+
+   <style>
+    body {
+        background-color: black;
+    }
+    #container {
+        position: relative;
+    }
+    canvas{
+    display: block;
+    margin: 5rem auto;
+    box-shadow: rgb(81, 69, 136) 0 0 20px 5px;
+    }
+    .sound{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+   </style>
+</head>
+
+<body>
+    
+    <div id="container">
+        <canvas id="break" width="450" height="500"></canvas>
+        <div id="start">
+         <p id="start_p">start..</p>
+        </div>
+        <div class="sound">
+            <img src="./imgs/SOUND_ON.png" id="sound">
+        </div>
+       <div id="gameover">
+            <img src="./imgs/youwon.png" alt="" id="youwon">
+            <img src="./imgs/gameover.png" alt="" id="youlose">
+            <div id="restart">
+                PlayAgain!
+            </div>
+        </div>
+   </div>
+
+
+    
+
+
+    <script src="js/bricks.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/components.js"></script>
+
+</body>
+
+</html>
